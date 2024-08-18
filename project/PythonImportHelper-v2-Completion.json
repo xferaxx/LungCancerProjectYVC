@@ -1,0 +1,38 @@
+[
+    {
+        "label": "cv2",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "cv2",
+        "description": "cv2",
+        "detail": "cv2",
+        "documentation": {}
+    },
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "image",
+        "kind": 5,
+        "importPath": "mkdir",
+        "description": "mkdir",
+        "peekOfCode": "image = cv.imread(\"C:/Users/PC/.spyder-py3/projects/project1/diffOverImage2.png\")\nhsv=cv.cvtColor(image,cv.COLOR_BGR2HSV)\n# Define lower and uppper limits of what we call \"gray 118\"\nbrown_lo=np.array([0,0,118])\nbrown_hi=np.array([118,118,118])\n# Mask image to only select grays 118\nmask=cv.inRange(hsv,brown_lo,brown_hi)\n# Change image to yellow where we found missed\nimage[mask>0]=(0,255,255)\ncv.imwrite(\"C:/Users/PC/.spyder-py3/projects/project1/see.png\",image)",
+        "detail": "mkdir",
+        "documentation": {}
+    },
+    {
+        "label": "image",
+        "kind": 5,
+        "importPath": "thirdcolor",
+        "description": "thirdcolor",
+        "peekOfCode": "image = cv2.imread(\"C:/Users/PC/.spyder-py3/projects/project1/diffOverImage2.png\")\nhsv=cv2.cvtColor(image,cv2.COLOR_BGR2HSV)\n# Define lower and uppper limits of what we call \"gray 118\"\nbrown_lo=np.array([0,0,118])\nbrown_hi=np.array([118,118,118])\n# Mask image to only select grays 118\nmask=cv2.inRange(hsv,brown_lo,brown_hi)\n# Change image to yellow where we found missed\nimage[mask>0]=(0,255,255)\ncv2.imwrite(\"C:/Users/PC/.spyder-py3/projects/project1/see.png\",image)",
+        "detail": "thirdcolor",
+        "documentation": {}
+    }
+]

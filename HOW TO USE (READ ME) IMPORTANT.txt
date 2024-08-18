@@ -1,0 +1,68 @@
+HOW TO USE (מדריך לפתיחת הפרויקט ו שימוש)
+
+
+INSIDE THE >>>>> FinalProject-312342181-207664616.zip File you wil see two zip folder
+1) project.zip
+2) phpapi.zip
+
+
+A) you need xampp and Visual Studio Code for better.
+
+B) Extract the (project) folder from the Zip and place it in C:\xampp\htdocs <<<<<<-- important.
+
+C) Extract the (phpapi) folder from the Zip and place it on Desktop <<<<<<-- important.
+
+D) go to xampp run the Apache and MySql.
+
+E) open http://localhost/phpmyadmin/
+
+F) Create new database named lungcancer then click on that database and click Import
+   inside the (project) folder there is folder named (DATABASE FILE) inside you find the lungcancer.sql to import.
+
+H) after all succsess open All the (project) folder in Visual Studio code <<<<<<-- important.
+
+I) AND then you have to open the index.py with the project in the Visual Studio <<<<<<-- SOO important.
+   *(THE PYTHON FILE) (ITS in the phpapi folder thats you put in the Desktop before) 
+
+J) inside the visual studio in the index.py file click Run >>> Start Debugging >>> like Python file <<<<<<-- SOO important.
+
+K) wait to the Debug you will see a Flask Server Running on http://127.0.0.1:5000
+
+ALL IS DONE, GOOD TO GO NOW
+
+
+*Open Chrome and type localhost/project to Enter the WEBSITE
+
+
+*THE CONNECTION TO THE DATABASE NEED TO BE LIKE THIS 
+
+
+ HOST = "localhost"
+ USER = "root"
+ PASS = ""
+ NAME = "lungcancer"
+
+#####################################
+
+**User Login Details**
+
+Email: julian@gmail.com
+pass:  12345678
+
+#####################################
+
+**Admin Login Details**
+
+Username: julian
+Password: admin123
+
+Username: admin
+Password: Password@123
+
+#####################################
+
+Contact Me if not working
+
+Phone: 0507166113 << Rajwan(Julian)
+Email: juliankh18@hotmail.com
+
